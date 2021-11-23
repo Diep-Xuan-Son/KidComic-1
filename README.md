@@ -35,7 +35,7 @@ gitclone https://github.com/congminh869/KidComic?fbclid=IwAR3JOjoQBdaiodvyA4pXlu
 
 
 ## Screenshots
-![Comic List](/Screenshots/comicDetail.png?raw=true "Comic List")
+![Comic List](/Screenshots/comiclist.png?raw=true "Comic List")
 ![Comic Detail](/Screenshots/comicDetail.png?raw=true "Comic Detail")
 
 
