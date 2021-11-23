@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewComicActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/columnColor">
+
+        <View
+            android:id="@+id/chapter_back"
+            android:background="@drawable/ic_chevron_left_black_24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/txt_chapter_name"
+            android:text="@string/no_page_number"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:textSize="24sp"
+            android:gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/chapter_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:id="@+id/chapter_next"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_chevron_right_black_24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    </RelativeLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </androidx.viewpager.widget.ViewPager>
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/view_pager"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" >-->
+
+<!--    </androidx.recyclerview.widget.RecyclerView>-->
+
+</LinearLayout>

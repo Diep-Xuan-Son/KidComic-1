@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "567312584691",
+    "firebase_url": "https://comicreader-2b508-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "comicreader-2b508",
+    "storage_bucket": "comicreader-2b508.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567312584691:android:20cfb4f4635730fded8c86",
+        "android_client_info": {
+          "package_name": "com.example.kidcomic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567312584691-if08g97irn2v8ffjibnndlu9pidkebqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAezhXYaRBoudxDgtjDV0rDHMqYVQ1Dl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567312584691-if08g97irn2v8ffjibnndlu9pidkebqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
